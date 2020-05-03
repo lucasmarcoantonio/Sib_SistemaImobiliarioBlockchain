@@ -109,5 +109,15 @@ namespace Sib_Sistema_Imobiliario_Blockchain
                 pnlMenu.Width = 250;
             }
         }
+
+        private void btnCadastros_Click(object sender, EventArgs e)
+        {
+            menuDropDown2.Controle();
+        }
+
+        private void btnImoveis_Click(object sender, EventArgs e)
+        {
+            menuDropDown3.Controle();
+        }
     }
 }
