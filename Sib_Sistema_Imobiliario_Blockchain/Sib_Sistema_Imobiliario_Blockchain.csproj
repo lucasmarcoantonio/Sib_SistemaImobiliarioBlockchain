@@ -52,7 +52,8 @@
     <Compile Include="TelaCarregamento.Designer.cs">
       <DependentUpon>TelaCarregamento.cs</DependentUpon>
     </Compile>
-    <Compile Include="GradientPanel.cs">
+    <Compile Include="View\Componentes\Class1.cs" />
+    <Compile Include="View\Componentes\GradientPanel.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Program.cs" />
@@ -62,6 +63,15 @@
     </Compile>
     <Compile Include="TelaLogin.Designer.cs">
       <DependentUpon>TelaLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaPrincipal.Designer.cs">
+      <DependentUpon>TelaPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Componentes\MenuDropDown.cs">
+      <SubType>Component</SubType>
     </Compile>
     <EmbeddedResource Include="TelaCarregamento.resx">
       <DependentUpon>TelaCarregamento.cs</DependentUpon>
@@ -78,6 +88,9 @@
     <EmbeddedResource Include="TelaLogin.resx">
       <DependentUpon>TelaLogin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="TelaPrincipal.resx">
+      <DependentUpon>TelaPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -91,5 +104,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

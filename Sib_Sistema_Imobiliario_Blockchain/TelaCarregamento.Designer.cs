@@ -48,14 +48,14 @@
             // gradientPanel1
             // 
             this.gradientPanel1.Colorbottom = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(92)))), ((int)(((byte)(125)))));
-            this.gradientPanel1.ColorTop = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(36)))));
+            this.gradientPanel1.ColorTop = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(92)))), ((int)(((byte)(125)))));
             this.gradientPanel1.Controls.Add(this.lbPorcent);
             this.gradientPanel1.Controls.Add(this.progressBar);
             this.gradientPanel1.Controls.Add(this.imgLogoSIB);
             this.gradientPanel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.gradientPanel1.Location = new System.Drawing.Point(0, 0);
             this.gradientPanel1.Name = "gradientPanel1";
-            this.gradientPanel1.Size = new System.Drawing.Size(492, 261);
+            this.gradientPanel1.Size = new System.Drawing.Size(489, 261);
             this.gradientPanel1.TabIndex = 3;
             // 
             // lbPorcent
