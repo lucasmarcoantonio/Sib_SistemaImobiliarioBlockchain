@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
-
+using Sib_Sistema_Imobiliario_Blockchain.View.Telas.Cadastros;
 
 namespace Sib_Sistema_Imobiliario_Blockchain
 {
@@ -103,6 +103,7 @@ namespace Sib_Sistema_Imobiliario_Blockchain
             if(pnlMenu.Width == 250)
             {
                 pnlMenu.Width = 50;
+                imgUserMini.Visible = true;
             }
             else
             {
@@ -112,12 +113,25 @@ namespace Sib_Sistema_Imobiliario_Blockchain
 
         private void btnCadastros_Click(object sender, EventArgs e)
         {
-            menuDropDown2.Controle();
+            mddCadastro.Controle();
         }
 
         private void btnImoveis_Click(object sender, EventArgs e)
         {
             menuDropDown3.Controle();
+        }
+
+        private void btnClientes_Click(object sender, EventArgs e)
+        {
+            frmCliente cliente = new frmCliente();
+            cliente.TopLevel = false;
+            cliente.Dock = DockStyle.Fill;
+            cliente.FormBorderStyle = FormBorderStyle.None;
+            cliente.Visible = true;
+
+            pnlBody.Controls.Clear();
+            pnlBody.Controls.Add(cliente);
+            pnlBody.Refresh();
         }
     }
 }
